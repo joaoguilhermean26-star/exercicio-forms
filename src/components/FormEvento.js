@@ -82,11 +82,11 @@ const FormEvento = () => {
           <input
             type="radio"
             name="tipoParticipante"
-            value="profissional"
+            value="professor"
             onChange={(e) => setTipoParticipante(e.target.value)}
-            checked={tipoParticipante === "profissional"}
+            checked={tipoParticipante === "professor"}
           />
-          <span>Profissional</span>
+          <span>Professor</span>
         </label>
 
         <label>
